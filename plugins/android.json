@@ -1,0 +1,34 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-custom-config": {
+      "PACKAGE_NAME": "com.portal.kimia"
+    },
+    "cordova-plugin-file": {
+      "ANDROIDX_WEBKIT_VERSION": "1.4.0",
+      "PACKAGE_NAME": "com.portal.kimia"
+    },
+    "cordova-plugin-inappbrowser": {
+      "PACKAGE_NAME": "com.portal.kimia"
+    },
+    "cordova-plugin-media": {
+      "PACKAGE_NAME": "com.portal.kimia"
+    },
+    "cordova-plugin-statusbar": {
+      "PACKAGE_NAME": "com.portal.kimia"
+    },
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "com.portal.kimia"
+    },
+    "cordova-plugin-wkwebview-engine": {
+      "PACKAGE_NAME": "com.portal.kimia"
+    }
+  },
+  "dependent_plugins": {}
+}

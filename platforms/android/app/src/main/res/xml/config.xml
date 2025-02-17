@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.portal.kimia" version="1.0.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <feature name="File">
+        <param name="android-package" value="org.apache.cordova.file.FileUtils" />
+        <param name="onload" value="true" />
+    </feature>
+    <allow-navigation href="cdvfile:*" />
+    <feature name="InAppBrowser">
+        <param name="android-package" value="org.apache.cordova.inappbrowser.InAppBrowser" />
+    </feature>
+    <feature name="Media">
+        <param name="android-package" value="org.apache.cordova.media.AudioHandler" />
+    </feature>
+    <feature name="StatusBar">
+        <param name="android-package" value="org.apache.cordova.statusbar.StatusBar" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="Whitelist">
+        <param name="android-package" value="org.apache.cordova.whitelist.WhitelistPlugin" />
+        <param name="onload" value="true" />
+    </feature>
+    <name>Portal Kimia</name>
+    <description>Portal Kimia Solusi Pembelajaran Interaktif Siswa</description>
+    <author email="andikaputraindramawan@gmail.com">Andika</author>
+    <icon density="xxxhdpi" height="256" src="www/icon-256.png" width="256" />
+    <icon density="xhdpi" height="128" src="www/icon-128.png" width="128" />
+    <config-file parent="UIStatusBarHidden" platform="ios" target="*-Info.plist">
+        <true />
+    </config-file>
+    <config-file parent="UIViewControllerBasedStatusBarAppearance" platform="ios" target="*-Info.plist">
+        <false />
+    </config-file>
+    <access origin="*" />
+    <preference name="loglevel" value="DEBUG" />
+    <preference name="StatusBarOverlaysWebView" value="true" />
+    <preference name="android-targetSdkVersion" value="30" />
+    <preference name="orientation" value="landscape" />
+    <preference name="fullscreen" value="true" />
+    <preference name="DisallowOverscroll" value="true" />
+    <preference name="AllowInlineMediaPlayback" value="true" />
+    <preference name="deployment-target" value="10.0" />
+    <preference name="android-minSdkVersion" value="21" />
+</widget>

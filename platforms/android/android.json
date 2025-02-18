@@ -10,13 +10,13 @@
           "UIStatusBarHidden": [
             {
               "xml": "<true />",
-              "count": 5
+              "count": 6
             }
           ],
           "UIViewControllerBasedStatusBarAppearance": [
             {
               "xml": "<false />",
-              "count": 5
+              "count": 6
             }
           ]
         }
